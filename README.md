@@ -40,20 +40,22 @@ Phase-1-Database-SQL/
 - Execute **stored procedures** to populate DW.  
 - Files:
 Phase-2-Python-ETL/
+```
 ├── etl_olist.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ### **Phase 3 – Data Modeling**
 - Build **star schema** in MySQL.  
 - Define **relationships between dimensions and fact tables**.  
 - Files:
 Phase-3-Data-Modeling/
+```
 ├── erd.png
 ├── relationships.sql
 └── README.md
-
+```
 
 ### **Phase 4 – Business Intelligence (Power BI)**
 - Connect Power BI to MySQL DW.  
@@ -61,10 +63,11 @@ Phase-3-Data-Modeling/
 - Create **DAX measures** and **dashboards**.  
 - Files:
 Phase-4-Business Intelligence Development (Power BI)/
+```
 ├── pbix/olist_dashboard.pbix
 ├── dax_measures.txt
 └── README.md
-
+```
 
 ### **Phase 5 – Streamlit Automation App**
 - Build **Python Streamlit UI** for batch uploads.  
@@ -72,11 +75,12 @@ Phase-4-Business Intelligence Development (Power BI)/
 - Enable **Power BI refresh** after each new batch.  
 - Files:
 Phase-5-Streamlit Automation App (Client Batch Uploader)/
+```
 ├── app.py
 ├── utils/
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -91,6 +95,7 @@ Phase-5-Streamlit Automation App (Client Batch Uploader)/
 
 ## **Folder Structure**
 Olist-Ecommerce-Data-Pipeline/
+```
 ├── Phase-0-Market-Research/
 ├── Phase-1-Database-SQL/
 ├── Phase-2-Python-ETL/
@@ -98,7 +103,7 @@ Olist-Ecommerce-Data-Pipeline/
 ├── Phase-4-Business Intelligence Development (Power BI)/
 ├── Phase-5-Streamlit Automation App (Client Batch Uploader)/
 └── README.md
-
+```
 
 ---
 
