@@ -65,7 +65,7 @@ Phase-3-Data-Modeling/
 Phase-4-Business Intelligence Development (Power BI)/
 ```
 ├── pbix/olist_dashboard.pbix
-├── dax_measures.txt
+├── Dashboard.png
 └── README.md
 ```
 
@@ -77,7 +77,6 @@ Phase-4-Business Intelligence Development (Power BI)/
 Phase-5-Streamlit Automation App (Client Batch Uploader)/
 ```
 ├── app.py
-├── utils/
 ├── requirements.txt
 └── README.md
 ```
