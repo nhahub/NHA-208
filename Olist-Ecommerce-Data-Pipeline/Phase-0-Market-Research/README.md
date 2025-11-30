@@ -1,68 +1,112 @@
 📄 README – Phase 0: Market Research & Business Understanding
-
 🧩 Overview
-This phase focuses on understanding the business model of the Olist e-commerce marketplace, identifying stakeholders’ needs, defining the required KPIs, and listing the business questions that the analytical dashboard should answer.
+
+This phase focuses on understanding the business model of the Olist e-commerce marketplace, identifying stakeholder needs, defining required KPIs, and listing the business questions that the analytical dashboard should answer.
 The goal is to ensure that all technical work (ETL, modeling, dashboarding) is aligned with real business objectives.
 
 🛒 1. Understanding the Olist Marketplace Model
-Olist is a Brazilian online marketplace platform that connects:
-Customers (buyers)
-Sellers (small and medium businesses)
-Delivery and logistics partners
-Payment gateways and financial intermediaries
-Olist acts as an enabler providing:
-Product listing and visibility
-Customer acquisition
-Order processing
-Payment handling
-Shipment coordination with carriers
 
-This creates a multi-sided ecosystem, which requires analytics to monitor performance, customer behavior, operational efficiency, and revenue generation.
+Olist is a Brazilian online marketplace connecting:
+
+Customers (buyers)
+
+Sellers (SMEs using Olist to sell online)
+
+Logistics partners (shipping carriers)
+
+Payment intermediaries
+
+Olist enables sellers by providing:
+
+Product listing & marketplace visibility
+
+Customer acquisition
+
+Order processing & tracking
+
+Payment handling
+
+Shipment coordination
+
+This creates a multi-sided ecosystem generating data across sales, customers, orders, payments, logistics, and returns — making it an ideal candidate for end-to-end data analysis.
 
 🎯 2. Purpose of This Phase
-Before building any database, pipeline, or dashboard, we needed to clarify:
-What the business is trying to measure
-What success looks like
-What KPIs are essential
-What questions decision-makers need answered
-What data sources are required
 
-This Market Research phase ensures that the data pipeline is built with the correct logic and the dashboard delivers meaningful insights.
+Before building any pipeline or dashboard, we needed to define:
+
+What the business wants to measure
+
+Which KPIs matter
+
+What data we need
+
+What decisions our insights will support
+
+This ensures the entire project is business-driven, not just technically correct.
 
 ❓ 3. Core Business Questions
-During the analysis, we identified key business questions such as:
-How do sales perform across categories, months, and customer segments?
-Which regions generate the highest revenue and profit?
-What is the return rate, and which products contribute the most to returns?
-What is the average shipping time vs. estimated time?
-What are the top-performing sellers and products?
-What is the distribution of payment methods used?
-What is the customer retention rate and repeat purchase behavior?
+
+These are the key questions decision-makers need answered:
+
+How do sales perform across time and product categories?
+
+What are the best-performing sellers and regions?
+
+What is the return rate, and which products drive most returns?
+
+What is the average delivery time vs. estimated time?
+
+What is the distribution of payment methods?
+
+How many customers are repeat buyers vs. new buyers?
+
+What is the customer retention rate?
+
+📄 Full list available here:
+👉 business_questions.md
 
 📊 4. Key KPIs Identified
-To answer the business questions effectively, we defined a list of KPIs including:
-Sales & Financial KPIs
+📈 Sales & Financial KPIs
+
 Total Sales
+
 Total Profit
+
 Average Order Value (AOV)
-Opportunity Loss (due to returns)
-Customer KPIs
+
+Opportunity Loss due to returns
+
+👥 Customer KPIs
+
 Unique Customers
+
 Repeat Customers
+
 Customer Retention Rate
+
 Orders per Customer
-Operational KPIs
+
+🚚 Operational KPIs
+
 Delivery Time
+
 SLA Performance
+
 Returns Count
+
 Return Rate
 
-🧱 5. Why This Phase Matters
-This foundational phase ensures:
-✔ Clear alignment between business goals and technical implementation
-✔ A roadmap for the data warehouse design
-✔ Accurate selection of Fact & Dimension tables
-✔ Smooth ETL development
-✔ A dashboard that delivers meaningful insights instead of random charts
+📄 Full KPI list available here:
+👉 kpi_list.md
 
-It prevents rework and ensures the final solution solves real business problems.
+🧱 5. Importance of This Phase
+
+This phase ensures:
+
+✔ Clear alignment between business goals and technical implementation
+✔ Clean roadmap for data modeling (fact & dimension tables)
+✔ Correct ETL logic
+✔ Insights that truly support decision-making
+✔ Avoiding rework later
+
+This is the foundation of the entire data pipeline.
