@@ -1,4 +1,3 @@
-```
 #  Olist E-Commerce Data Pipeline & BI Project
 
 ## **Overview**
@@ -17,21 +16,23 @@ The project is organized into **phases**, each representing a step in the develo
 - Define **KPIs** for sales, customers, products, and operations.  
 - Files:
 Phase-0-Market-Research/
+```
 ├── Graduation Project_Data-Driven Insights into E-Commerce Performance A KPI Analysis of Olist’s B2B2C Model.pdf
 └── README.md
-
+```
 
 ### **Phase 1 – Database & SQL Engineering**
 - Create **MySQL database**, staging, dimension, and fact tables.  
 - Develop **Stored Procedures** for automated ETL.  
 - Files:
 Phase-1-Database-SQL/
+```
 ├── create_database.sql
 ├── staging_tables.sql
 ├── dim_fact_tables.sql
 ├── stored_procedures.sql
 └── README.md
-
+```
 
 ### **Phase 2 – Python ETL: Import & Cleaning**
 - Automate CSV data import.  
@@ -105,4 +106,3 @@ Olist-Ecommerce-Data-Pipeline/
 - Maintain and update dashboards as new batches arrive.  
 - Extend ETL automation for additional datasets.  
 - Add more KPIs and analytical views as business needs evolve.
-```
