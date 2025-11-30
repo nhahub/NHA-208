@@ -15,7 +15,6 @@ The project is organized into **phases**, each representing a step in the develo
 - Identify key **business questions**.  
 - Define **KPIs** for sales, customers, products, and operations.  
 - Files:
-```
 Phase-0-Market-Research/
 ├── Graduation Project_Data-Driven Insights into E-Commerce Performance A KPI Analysis of Olist’s B2B2C Model.pdf
 └── README.md
